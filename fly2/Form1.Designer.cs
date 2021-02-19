@@ -152,6 +152,11 @@
             // forSize
             // 
             this.forSize.DecimalPlaces = 2;
+            this.forSize.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.forSize.Location = new System.Drawing.Point(120, 283);
             this.forSize.Maximum = new decimal(new int[] {
             10,
